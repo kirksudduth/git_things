@@ -29,6 +29,8 @@
 
 .shop div {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
-    flex-wrap: wrap;
+    color: green;
+    flex-wrap: wrap-reverse;
+    background-color: aquamarine;
+    align-content: center;
 }
