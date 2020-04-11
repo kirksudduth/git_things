@@ -1,0 +1,34 @@
+.pageHeader {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    /* border: dotted 1px; */
+    flex-basis: 32%;
+    padding: 1px;
+}
+
+.shop a {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.shop a:hover {
+    background-color: blueviolet;
+}
+
+.shop div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    flex-wrap: wrap;
+}
