@@ -1,5 +1,8 @@
 .pageHeader {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: seagreen;
 }
 
 .list {
@@ -17,14 +20,14 @@
 }
 
 .shop a {
-    background-color: pink;
+    background-color: aquamarine;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid pink;
-    border-radius: 5px;
+    border: 1px solid aquamarine;
+    /* border-radius: 5px; */
 }
 
 .shop a:hover {
-    background-color: blueviolet;
+    background-color: azure;
 }
 
 .shop div {
@@ -36,6 +39,6 @@
 }
 
 .shop div.phone {
-    color: blueviolet;
-    background-color: pink;
+    color: aquamarine;
+    background-image: linear-gradient(to bottom right, green, white);
 }
