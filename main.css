@@ -3,6 +3,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
     color: seagreen;
+    text-shadow: 2px 3px aquamarine;
 }
 
 .list {
@@ -24,6 +25,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid aquamarine;
     /* border-radius: 5px; */
+    text-shadow: 1px 0px seagreen;
 }
 
 .shop a:hover {
@@ -36,9 +38,16 @@
     flex-wrap: wrap-reverse;
     background-color: aquamarine;
     align-content: center;
+    text-shadow: 1px 0px seagreen;
 }
 
 .shop div.phone {
     color: aquamarine;
-    background-image: linear-gradient(to bottom right, green, white);
+    background-image: linear-gradient(to top, green, aquamarine);
+    text-shadow: 1px 0px seagreen;
+}
+
+article.list {
+    /* background-color: navy; */
+    background-image: linear-gradient(to right, green, aquamarine);
 }
