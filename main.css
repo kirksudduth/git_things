@@ -21,15 +21,16 @@
 }
 
 .shop a {
-    background-color: aquamarine;
+    background-image: linear-gradient(to top, aquamarine, green);
+    /* background-color: hotpink; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid aquamarine;
+    /* border: 1px solid aquamarine; */
     /* border-radius: 5px; */
     text-shadow: 1px 0px seagreen;
 }
 
 .shop a:hover {
-    background-color: azure;
+    background-color: green;
 }
 
 .shop div {
@@ -42,12 +43,12 @@
 }
 
 .shop div.phone {
-    color: aquamarine;
+    color: black;
     background-image: linear-gradient(to top, green, aquamarine);
     text-shadow: 1px 0px seagreen;
 }
 
 article.list {
-    /* background-color: navy; */
-    background-image: linear-gradient(to right, green, aquamarine);
+    background-color: green;
+    /* background-image: linear-gradient(to right, green, aquamarine); */
 }
